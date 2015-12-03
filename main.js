@@ -1,6 +1,9 @@
-//var timelineOne = new TimelineMax();
-//var domo = document.querySelector('.domo');
+var timelineOne = new TimelineMax();
+var timelineTwo = new TimelineMax();
+var domo = document.querySelector('.body');
 
   timelineOne
-    .from(domo, 0.5, {rotation:360, scale: transformOrigin:"100px 100px"})
-    .to(domo, 0.5, { left:"50px", ease: Sine.easeInOut, y: 0});
+    .to(domo, 0.5, {rotation: 360, transformOrigin: "45px 57px"});
+
+  timelineTwo
+    .to(domo, 0.5, {scale:2});
