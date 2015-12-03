@@ -6,12 +6,94 @@
   width: 100%;
   height: 100vh;
   background-color: #84666C;
-  display: flex;
-  align-items: center;
-  align-content: center;
 }
 
-.domo{
-  width: 200px;
-  margin: 0 auto;
+.body{
+  width: 90px;
+  height: 115px;
+  background-color: #FC1681;
+  border-radius: 10px;
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+
+.eyes{
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  background-color: #000;
+  position: absolute;
+  top: 20px;
+}
+
+.eyes-left{
+  left: 5px;
+}
+
+.eyes-right{
+  right: 5px;
+}
+
+.eye{
+  width: 4px;
+  height: 4px;
+  background-color: #FFF;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.eye-left{
+  left: 3px;
+  top: 5px;
+}
+
+.eye-right{
+  top: 3px;
+  right: 9px;
+}
+
+.mouth{
+  width: 65px;
+  height: 44px;
+  left: 12px;
+  bottom: 25px;
+  background: url('images/boca.png') no-repeat;
+  position: absolute;
+  background-size: 65px;
+}
+
+.foot{
+  width: 20px;
+  height: 27px;
+  background-color: #FC1681;
+  position: absolute;
+  bottom: -26px;
+}
+
+.foot-left{
+  left: 15px;
+}
+
+.foot-right{
+  right: 15px;
+}
+
+.hand{
+  width: 25px;
+  height: 70px;
+  background: #FC1681;
+  position: absolute;
+  border-radius: 5px;
+  top: 33px;
+}
+
+.hand-left{
+  left: -14px;
+  transform: rotate(-38deg);
+}
+
+.hand-right{
+  transform: rotate(38deg);
+  left: 79px;
 }
